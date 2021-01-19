@@ -1,5 +1,3 @@
-
-
 body {
     max-width: 1000px;
     float: none;
@@ -11,12 +9,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 15px 5px 15px;
 }
 
-p {
+p, li {
     font-family: 'open sans', sans-serif;
     font-size: 1.1em;
     line-height: 1.3em;
     padding: 15px;
+    
 }
+
 
 a  { /* There are no actual links present here */
     font-family: 'open sans', sans-serif;
@@ -53,7 +53,8 @@ ul li {
     box-shadow: 0 10px 10px 0 rgb(87, 86, 86);
 }
 
-/* styling the tabs and buttons */
+/* styling the tabs and buttons
+and adding working links to them */
 nav { 
     display: flex;
     justify-content: center;
@@ -93,7 +94,6 @@ main {
     display: block;
     min-height: 300px;
 }
-
 aside {
     float: right;
     width: 28%;
