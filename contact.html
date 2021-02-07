@@ -32,12 +32,48 @@
         
         <p> 
             <h3> More contact information </h3>
-            
-                <li><u>+46406657000</u></li>
-                <li><u>Postal Address</u></li>
-                <li><u>Tech Support</u></li>
-            
+            <li><u>+46406657000</u></li>
+            <li><u>Postal Address</u></li>
+            <li><u>Tech Support</u></li>
         </p>
+
+        <!--Form starts-->
+        <form action="">
+            <h2 class="main-info">
+                Would you like to contact the Developer?
+                Please fill the form below:
+            </h2>
+            <label for="name" class="label">Full name</label>
+            <input type="text" class="input-field" placeholder="Your Name">
+            <label for="email">Email address</label>
+            <input type="email" class="input-field" placeholder="Your Email">
+            <div class="select-wrapper">
+                <label for="select" class="label">
+                    Choose the topic for your message:
+                </label>
+                <select name="Developer" class="select" id="select">
+                    <option value="feedback">Feedback</option>
+                    <option value="Reporting">Reporting an Error</option>
+                    <option value="other">Other option</option>
+                </select>
+            </div>
+            <label class="label label--large">
+                <div class="label__text">Message</div>
+                <textarea name="message" class="text-box" id="" cols="30" rows="4" placeholder="Your message"></textarea>
+            </label>
+            <div class="checkbox-container">
+                <label class="checkbox-label">
+                    <input type="checkbox" checked>
+                    <span class="checkbox-custome rectangular"></span>
+                    <div class="input-title">
+                        I would like to receive emails from 
+                        this source.
+                    </div>
+                </label>
+            </div>
+            <button type="submit" class="button">SUBMIT</button>
+        </form>
+        <!--Form ends-->
     </main>
      <aside>
         <h3 align="center" >Home</h3>
